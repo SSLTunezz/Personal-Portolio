@@ -20,8 +20,7 @@
   --animate-meteor: meteor 5s linear infinite;
 
   @keyframes float {
-    0%
-    100% {
+    0%, 100% {
   transform: translateY(0);
 }
   50% {
@@ -30,8 +29,7 @@
   }
 
   @keyframes pulse-subtle {
-  0%
-  100% {
+  0%, 100% {
   opacity: 1;
 }
   50% {
