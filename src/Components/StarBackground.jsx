@@ -31,7 +31,7 @@ export const StarBackground = () => {
             (window.innerWidth * window.innerHeight) / 10000
         );
         const newStars = []
-
+// Let's try to add a constraint that x and y cannot be the same
         for (let i = 0; i < numberOfStars; i++) {
             newStars.push({
                 id:i,
@@ -63,11 +63,6 @@ export const StarBackground = () => {
 
         setMeteors(newMeteors);
     };
-
-
-
-
-
 
 
 

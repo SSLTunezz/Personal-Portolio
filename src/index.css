@@ -4,6 +4,7 @@
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
+  --color-star: hsl(var(--star));
 
   --color-primary: hsl(var(--primary));
   --color-primary-foreground: hsl(var(--primary-foreground));
@@ -75,6 +76,8 @@
     --primary-foreground: 210 40% 98%;
 
     --border: 214 32% 91%;
+
+    --star:  250 100% 27%;
   }
   .dark {
     --background: 222 47% 4%;
@@ -86,6 +89,8 @@
     --primary-foreground: 213 31% 91%;
 
     --border: 214 33% 20%;
+
+    --star:  100 100% 100%;
   }
 
   * {
@@ -95,7 +100,7 @@
     @apply scroll-smooth
   }
    body {
-    @apply bg-background text-foreground transition-colors duration 300;
+    @apply bg-background text-foreground transition-colors duration-300;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 
@@ -150,7 +155,7 @@
 }
 
 @utility star {
-  @apply absolute rounded-full bg-white;
+  @apply absolute rounded-full bg-star;
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
 }
 
