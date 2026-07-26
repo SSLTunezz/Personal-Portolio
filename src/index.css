@@ -20,6 +20,7 @@
   --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s forwards;
   --animate-meteor: meteor 5s linear infinite;
 
+
   @keyframes float {
     0%, 100% {
   transform: translateY(0);
@@ -28,6 +29,9 @@
     transform: translateY(-10px);
   }
   }
+
+
+
 
   @keyframes pulse-subtle {
   0%, 100% {
@@ -148,7 +152,7 @@
   border: 1px solid transparent;
 }
 
-@utility cosmic {
+@utility cosmic-button {
   @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium
          transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]
          hover:scale-105 active:scale-95;

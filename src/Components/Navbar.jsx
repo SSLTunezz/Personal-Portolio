@@ -57,6 +57,7 @@ export const Navbar = () => {
 
             <button onClick={() => setIsMenuOpen((prev) => !prev)}
                     className="md:hidden p-2 text-foreground z-50"
+                    aira-label={isMenuOpen ? "Close Menu" : "Open Menu"}
             >
                 {isMenuOpen ? < XIcon size={24} /> : <MenuIcon size={24} />} </button>
 
