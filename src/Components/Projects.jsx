@@ -12,16 +12,16 @@ export const ProjectSection = () => {
                 </h2>
             </div>
             <div className={"container mx-auto max-w-10xl flex flex-col flex-row md:flex-row gap-12 justify center items-center"}>
-                <div className={"box"}>
+                <div className={"box bg-card"}>
                       text
                  </div>
-                <div className={"box"}>
+                <div className={"box bg-card"}>
                     text 2
                 </div>
-                <div className={"box"}>
+                <div className={"box bg-card"}>
                     text 3
                 </div>
-                <div className={"box"}>
+                <div className={"box bg-card"}>
                     text 4
                 </div>
             </div>

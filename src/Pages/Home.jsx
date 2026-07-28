@@ -4,6 +4,7 @@ import {Navbar} from "@/Components/Navbar.jsx";
 import { HeroSection} from "@/Components/HeroSection.jsx";
 import { AboutSection} from "@/Components/AboutMe.jsx";
 import { ProjectSection} from "@/Components/Projects.jsx";
+import { SkillsSection} from "@/Components/Skills.jsx";
 
 export const Home = () => {
 
@@ -19,6 +20,7 @@ export const Home = () => {
         <main>
             <HeroSection />
             <AboutSection />
+            <SkillsSection />
             <ProjectSection />
         </main>
 
