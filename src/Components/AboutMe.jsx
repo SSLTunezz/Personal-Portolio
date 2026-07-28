@@ -20,7 +20,30 @@ export const AboutSection = () => {
                 <span className={"text-1l md:text-2l font-bold tracking-light"}> on slack, and as </span>
                 <span className={"text-1l md:text-2l font-bold tracking-light text-primary"}> Simply Clix </span>
                 <span className={"text-1l md:text-2l font-bold tracking-light"}> on games. I love making tech, such as macropads, robotic arms, and time to time software projects,
-                    like the one your looking at right now! </span>
+                    like the one your looking at right now! I attend a </span>
+
+                <span className={"text-1l md:text-2l font-bold tracking-light text-primary"}>   International School </span>
+
+                <span className={"text-1l md:text-2l font-bold tracking-light"}>   that focuses on the </span>
+
+                <span className={"text-1l md:text-2l font-bold tracking-light text-primary"}>   IB curriculum </span>
+
+                <span className={"text-1l md:text-2l font-bold tracking-light"}>   .My favourite sport to play is </span>
+
+                <span className={"text-1l md:text-2l font-bold tracking-light text-primary"}>    table tennis, </span>
+                <span className={"text-1l md:text-2l font-bold tracking-light"}>
+                    I train at
+                    a club, have fun with friends, at play various competitions and tournements. I also enjoy playing
+
+                    football
+
+                    with my friends. Additionally Im in a
+                    </span>
+
+                <span className={"text-1l md:text-2l font-bold tracking-light text-primary"}>  robotics </span>
+                <span className={"text-1l md:text-2l font-bold tracking-light"}>
+                    team called "Ghosttt"
+                    (yes the 3 t's are intentional), we do FRC and just recently joined FRC too. </span>
             </p>
             <h2 className={"text-4xl font-bold text-foreground"}> Pop a Hello! </h2>
 
