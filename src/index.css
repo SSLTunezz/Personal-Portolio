@@ -20,19 +20,50 @@
   --animate-fade-in-delay-3: fade-in 0.7s ease-out 0.6s forwards;
   --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s forwards;
   --animate-meteor: meteor 5s linear infinite;
+  --animate-typewriter: typewriter 5s steps(186)  alternate, blink 0.7s infinite;
+  --animate-typewriter-delay-1:  typewriter 5s steps(186)  alternate, blink 0.7s infinite;
+  /* --animate-blink: blink 0.7s infinite; */
 
 
 
+@keyframes typewriter {
+  0% {
+    width: 0%;
+    visibility: hidden;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+  @keyframes typewriter-delay-1 {
+
+    0% {
+      width: 0%;
+      visibility: hidden;
+    }
+    100% {
+      width: 100%;
+    }
+  }
 
 
+  @keyframes blink {
+    50% {
+      borderColor: "transparent";
+    }
+    100% {
+      borderColor: "white"
+    }
+  }
 
   @keyframes float {
     0%, 100% {
-  transform: translateY(0);
-}
-  50% {
-    transform: translateY(-10px);
-  }
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
   }
 
   @keyframes pulse-subtle {
@@ -151,8 +182,23 @@
 }
 
 
+@utility terminal {
+  @apply px-6 py-6 h-200 w-350 rounded-2xl bg-black grid place-content-center
+  transition-all duration-300 hover:shadow-[0_0_30px_rgba(100,100,100,0.5)];
 
-
+}
+@utility circle-567 {
+  @apply px-2 py-2 rounded-full bg-red-600
+  ;
+}
+@utility circle-568 {
+  @apply px-2 py-2 rounded-full bg-green-500
+  ;
+}
+@utility circle-569 {
+  @apply px-2 py-2 rounded-full bg-amber-500
+  ;
+}
 @utility box {
   @apply px-6 py-6 h-50 w-100 rounded-2xl bg-primary text-primary-foreground font-medium
   transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]

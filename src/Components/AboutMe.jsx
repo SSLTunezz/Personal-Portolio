@@ -42,10 +42,10 @@ export const AboutSection = () => {
 
                 <span className={"text-1l md:text-2l font-bold tracking-light text-primary"}>  robotics </span>
                 <span className={"text-1l md:text-2l font-bold tracking-light"}>
-                    team called "Ghosttt"
-                    (yes the 3 t's are intentional), we do FRC and just recently joined FRC too. </span>
+                    team called "Ghost"
+                    , we do FRC and just recently joined FTC too (in ftc we are Ghosttt!). </span>
             </p>
-            <h2 className={"text-4xl font-bold text-foreground"}> Pop a Hello! </h2>
+            <h2 className={"text-4xl font-bold text-foreground"}> Explore more </h2>
 
             <button >
                 <a href={"https://google.com/"}>
