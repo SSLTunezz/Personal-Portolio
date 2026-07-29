@@ -19,7 +19,7 @@ export const HeroSection = () => {
 
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
                         <a className="cosmic-button" href="hacker" >
-                            View my Maker Portfolio
+                            View my Hacker Portfolio (if ya dare)
 
                         </a>
                     </div>

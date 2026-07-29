@@ -2,6 +2,7 @@ import {MoonIcon, Sun} from "lucide-react";
 import Platform from "../resources/platform.png";
 import GithubIcon from "../resources/github.png";
 import GmailIcon from "../resources/gmail.png";
+import GhostIcon from "../resources/Logomark Team Management.png";
 export const AboutSection = () => {
     return <section
     id="about"
@@ -53,6 +54,16 @@ export const AboutSection = () => {
                     src={Platform}
                     alt="Logo"
                     className=" h-10 w-10"
+                    />
+                </a>
+            </button>
+
+            <button >
+                <a href={"https://www.ghostfoundation.nl/"}>
+                    <img
+                        src={GhostIcon}
+                        alt="Logo"
+                        className=" h-10 w-10"
                     />
                 </a>
             </button>
