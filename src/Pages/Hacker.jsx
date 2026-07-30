@@ -1,7 +1,7 @@
 import {HackerBackground} from "@/Components/Hback.jsx";
 import {Geese} from "@/Components/Geese.jsx";
 import {VillianSection} from "@/Components/Villans.jsx";
-import {BeybladeSection} from "../Components/Beyblade.jsx";
+import {BeybladeSection} from "../Components/beyblade.jsx";
 import {SecretSection} from "@/Components/Secret.jsx";
 
 

@@ -1,8 +1,8 @@
 import {MoonIcon, Sun} from "lucide-react";
-import Platform from "../resources/platform.png";
-import GithubIcon from "../resources/github.png";
-import GmailIcon from "../resources/gmail.png";
-import GhostIcon from "../resources/Logomark Team Management.png";
+import Platform from "../Resources/platform.png";
+import GithubIcon from "../Resources/github.png";
+import GmailIcon from "../Resources/gmail.png";
+import GhostIcon from "../Resources/Logomark Team Management.png";
 export const AboutSection = () => {
     return <section
     id="about"

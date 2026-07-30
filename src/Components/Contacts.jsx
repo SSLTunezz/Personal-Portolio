@@ -1,7 +1,7 @@
 import Platform from "@/Resources/platform.png";
 import GithubIcon from "@/Resources/github.png";
 import GmailIcon from "@/Resources/gmail.png";
-import Handshake from "../Resources/handshake.png";
+import Handshake from "../Resources/Handshake.png";
 
 
 export const ContactSection = () => {
